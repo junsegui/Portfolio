@@ -528,3 +528,23 @@ html{scroll-behavior: smooth;}
     display: flex;
     flex-direction: column;
 }
+.a2:visited{
+    color: #f7f7f8;
+}
+.a3:visited{
+    color: rgb(11,171,100);
+}
+.a2{
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+    scroll-behavior: smooth;
+}
+.a3{
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+    scroll-behavior: smooth;
+}
