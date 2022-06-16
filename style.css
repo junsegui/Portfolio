@@ -515,7 +515,7 @@ label{
     display: flex;
 
     justify-content: center;
-    scroll-behavior: smooth;
+
 }
 .a1:visited{
     color: #1C1E26;
@@ -539,12 +539,22 @@ html{scroll-behavior: smooth;}
     display: flex;
 
     justify-content: center;
-    scroll-behavior: smooth;
+
 }
 .a3{
     width: 100%;
     display: flex;
 
     justify-content: center;
-    scroll-behavior: smooth;
+
+}
+.a1:link{
+    color: #1C1E26;
+
+}
+.a2:link{
+    color: #f7f7f8;
+}
+.a3:link{
+    color: rgb(11,171,100);
 }
