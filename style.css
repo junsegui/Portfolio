@@ -580,3 +580,232 @@ html{scroll-behavior: smooth;}
     pointer-events: auto;
     opacity: 1;
 }
+@media (max-width:1024px) and (min-width:769px){
+   .head{
+    height: 800px;
+   }
+   .arrowBlack{
+    width: 180px;
+   }
+   #EN{
+    font-size: 30px;
+    height: 40px;
+   }
+   h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   }
+   .present{
+    height: 800px;
+   }
+   
+   .arrowWhite{
+    width: 180px;
+   }
+   .myInfo{
+    height: 800px;
+   }
+   .lista1 li {
+    font-size: 17px;
+    width: 100%;
+    justify-content: flex-start;
+   }
+   .lista2 li{
+    font-size: 17px;
+    justify-content: flex-start;
+   }
+   .mis{
+    font-size: 3.2rem;
+   }
+   .arrowGreen{
+    width: 180px;
+   }
+   #ES{
+    font-size: 30px;
+    height: 40px;
+   }
+}
+@media (max-width:768px) and (min-width:426px){
+    .head{
+        height: 800px;
+       }
+       .arrowBlack{
+        width: 180px;
+       }
+       #EN{
+        font-size: 30px;
+        height: 40px;
+       }
+       h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+       }
+       .present{
+        height: 800px;
+       }
+       .arrowWhite{
+        width: 180px;
+       }
+       .myInfo{
+        height: 800px;
+       }
+       .lista1 li {
+        font-size: 17px;
+        width: 100%;
+        justify-content: flex-start;
+       }
+       .lista2 li{
+        font-size: 17px;
+        justify-content: flex-start;
+       }
+       .mis{
+        font-size: 3.2rem;
+       }
+       .arrowGreen{
+        width: 180px;
+       }
+       #ES{
+        font-size: 30px;
+        height: 40px;
+       } 
+       .hi h1{
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+       }
+       .hi h2{
+        font-size: 25px;
+       }
+       .hi p {
+        font-size: 25px;
+       }
+       .box p {
+        font-size: 25px;
+       }
+       div button{
+        width: 150px;
+        font-size: 27px;
+        padding: 0;
+       }
+       .detail h2{
+        font-size: 3rem;
+       }
+       .detail p {
+        font-size: 2rem;
+       }
+       .red{
+        display: flex;
+        flex-direction: column;
+       }
+}
+@media (max-width:425px) and (min-width:376px){
+    .head{
+        height: 800px;
+       }
+       .arrowBlack{
+        width: 180px;
+       }
+       #EN{
+        font-size: 30px;
+        height: 40px;
+       }
+       h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+       }
+       .present{
+        height: 800px;
+       }
+       .arrowWhite{
+        width: 180px;
+       }
+       .myInfo{
+        height: 800px;
+       }
+       .lista1 li {
+        font-size: 10px;
+        width: 100%;
+        justify-content: flex-start;
+       }
+       .lista2 li{
+        font-size: 17px;
+        justify-content: flex-start;
+       }
+       .mis{
+        font-size: 3.2rem;
+       }
+       .arrowGreen{
+        width: 180px;
+       }
+       #ES{
+        font-size: 30px;
+        height: 40px;
+       } 
+       .hi h1{
+        font-size: 25px;
+        display: flex;
+        flex-direction: column;
+       }
+       .hi h2{
+        font-size: 20px;
+       }
+       .hi p {
+        font-size: 20px;
+       }
+       .box p {
+        font-size: 20px;
+       }
+       div button{
+        width: 85px;
+        font-size: 15px;
+        padding: 0;
+       }
+       .detail h2{
+        font-size: 3rem;
+       }
+       .detail p {
+        font-size: 2rem;
+       }
+       
+       .img{
+        font-size: 0.8rem;
+       }
+       .img2{
+        font-size: 0.4rem;
+       }
+       .box h2{
+        font-size: 30px;
+       }
+       .lista1 li {
+        font-size: 10px;
+        justify-content: center;
+        align-items: center;
+       }
+       .lista2 li{
+        font-size: 10px;
+        justify-content: center;
+        align-items: center;
+       }
+       .red{
+        display: flex;
+        flex-direction: column;
+       }
+       .mis{
+        font-size: 2.2rem;
+        align-items: center;
+        justify-content: center;
+       }
+       .red2{
+        width: 100%;
+       }
+       .red1{
+        width: 100%;
+       }
+       
+}
