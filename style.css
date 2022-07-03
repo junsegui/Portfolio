@@ -315,6 +315,65 @@ body {
   justify-content: center;
   align-items: center;
 }
+#ES {
+  margin-top: 4%;
+  margin-right: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #111;
+  border-radius: 10px;
+}
+#ES:hover {
+  cursor: pointer;
+}
+#ES {
+  background: transparent;
+  outline: none;
+  position: relative;
+  border: 2px solid #111;
+  padding: 15px 50px;
+  overflow: hidden;
+  font-size: 1.5rem;
+  background-color: #8594ab;
+}
+
+/*button:before (attr data-hover)*/
+#ES:hover:before {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+#ES:before {
+  content: attr(data-hover);
+  position: absolute;
+  top: 1.1em;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  margin-top: 4%;
+  opacity: 0;
+  transform: translate(-100%, 0);
+  transition: all 0.3s ease-in-out;
+}
+
+#ES:hover div {
+  opacity: 0;
+  transform: translate(100%, 0);
+}
+#ES div {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 200;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .present {
   width: 100%;
   height: 900px;
@@ -543,6 +602,7 @@ div p span {
 .lista1 i {
   color: #1c1e26;
   padding-right: 10px;
+  margin-top: 10px;
 }
 .contactMe {
   width: 50%;
@@ -641,55 +701,6 @@ form {
   align-items: center;
   margin-top: 70px;
 }
-.two {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  margin-left: 10%;
-}
-
-#name {
-  width: 88%;
-  font-size: 1.5em;
-  border: none;
-  background-color: #1c1e26;
-  border-bottom: 1px solid white;
-  padding: 20px;
-  color: white;
-}
-input::placeholder {
-  color: white;
-  font-family: "Quick Sand Light";
-  font-size: 30px;
-  margin-left: 60px;
-}
-.center {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-#number {
-  width: 100%;
-  margin-right: 10%;
-  color: white;
-  font-size: 1.5em;
-  border: none;
-  background-color: #1c1e26;
-  border-bottom: 1px solid white;
-  padding: 20px;
-}
-#number::placeholder {
-  color: white;
-}
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
 
 input[type="number"] {
   -moz-appearance: textfield;
@@ -704,17 +715,7 @@ input[type="number"] {
   border-bottom: 1px solid white;
   padding: 20px;
 }
-textarea {
-  width: 83%;
-  height: 20%;
-  margin-top: 20px;
-  color: #1c1e26;
-  font-family: "Quick Sand Light";
-  font-size: 1.2rem;
 
-  border-radius: 10px;
-  resize: none;
-}
 .send {
   margin-top: 5%;
   border-radius: 10px;
@@ -811,7 +812,7 @@ html {
   align-items: center;
   justify-content: center;
   font-size: 32px;
-  color: rgb(11, 171, 100);
+  color: #8594ab;
   text-decoration: none;
   opacity: 0;
 }
