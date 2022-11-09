@@ -34,8 +34,8 @@ export const CC = styled.div`
   flex-direction: row;
 `;
 export const Logo = styled.img`
-  width: 19%;
-  height: 30%;
+  width: 20%;
+  height: 33%;
   position: absolute;
   right: 0%;
   bottom: 0%;

@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 export const DesktopNavbarStyled = styled.div`
@@ -25,11 +26,22 @@ export const UL = styled.ul`
   list-style: none;
   justify-content: flex-end;
 `;
-export const LI = styled.li`
+export const LI = styled(NavLink)`
   width: 8%;
   color: #100c0b;
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 1%;
   font-weight: 800;
+  text-decoration: none;
+`;
+export const Home = styled(NavLink)`
+  width: 90%;
+  color: #100c0b;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1%;
+  font-weight: 800;
+  text-decoration: none;
+  letter-spacing: 1px;
 `;

@@ -5,3 +5,10 @@ export const Container = styled.div`
   height: 100vh;
   background-color: #352c2d;
 `;
+export const Welcome = styled.img`
+  position: absolute;
+  transform: rotate(-90deg);
+  width: 15%;
+  right: 90%;
+  top: -5%;
+`;

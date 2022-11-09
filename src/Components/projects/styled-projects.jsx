@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
 
 export const Container = styled.div`
@@ -20,12 +21,12 @@ export const LI = styled.li`
   display: flex;
   width: 85%;
   justify-content: space-between;
-  cursor: pointer;
+
   border-bottom: 1.5px solid #afa59f;
 
   transition: all 1s ease-in-out;
   :hover {
-    transform: scale(1.1);
+    transform: scale(1.01);
   }
 `;
 export const Tittle = styled.span`
@@ -42,3 +43,9 @@ export const Date = styled.span`
   font-size: 2rem;
 `;
 export const Redirect = styled.span``;
+export const Icon = styled(FontAwesomeIcon)`
+  font-size: 2rem;
+  cursor: pointer;
+  color: #352c2d;
+`;
+export const A = styled.a``;

@@ -1,14 +1,21 @@
 import React from "react";
-import { Center, DesktopNavbarStyled, LI, UL } from "./DesktopNavbarStyled";
+import {
+  Center,
+  DesktopNavbarStyled,
+  Home,
+  LI,
+  UL,
+} from "./DesktopNavbarStyled";
 
 export const DesktopNavbar = () => {
   return (
     <DesktopNavbarStyled>
       <Center>
         <UL>
-          <LI>BIO</LI>
-          <LI>PROJECTS</LI>
-          <LI>CONTACTAME</LI>
+          <Home to="/">HOME</Home>
+          <LI to="/bio">BIO</LI>
+          <LI to="/projects">PROJECTS</LI>
+          <LI to="/technologies">TECHNOLOGIES</LI>
         </UL>
       </Center>
     </DesktopNavbarStyled>

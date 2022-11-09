@@ -10,7 +10,6 @@ function App() {
     <Container>
       <SideBar />
       <Layout>
-        <Navbar />
         <Routes />
       </Layout>
     </Container>

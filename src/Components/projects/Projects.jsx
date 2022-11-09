@@ -1,30 +1,48 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import { faArrowAltCircleRight } from "@fortawesome/free-regular-svg-icons";
-import { Container, Date, LI, Redirect, Tittle, UL } from "./styled-projects";
+import {
+  faCircleRight,
+  faQuestionCircle,
+} from "@fortawesome/free-regular-svg-icons";
+import { Container, Date, Icon, LI, Tittle, UL } from "./styled-projects";
+import { Tooltip } from "../tooltip/Tooltip";
+import { ToooltipTarget } from "../tooltip/tooltip-styled";
+import { Navbar } from "../Navbar/Navbar";
 
 export const Projects = () => {
   return (
-    <Container>
-      <UL>
-        <LI>
-          <Tittle>Project Kos</Tittle>
-          <Date>2022</Date>
-          <Redirect>flecha</Redirect>
-        </LI>
-        <LI>
-          <Tittle>Kanbam</Tittle>
-          <Date>2022</Date>
-          <Redirect>flecha</Redirect>
-        </LI>
-        <LI>
-          <Tittle>X</Tittle>
-          <Date>2022</Date>
-          <Redirect>
-            <FontAwesomeIcon icon={faArrowAltCircleRight} />
-          </Redirect>
-        </LI>
-      </UL>
-    </Container>
+    <>
+      <Navbar />
+      <Container>
+        <UL>
+          <LI>
+            <Tittle>Project Kos</Tittle>
+            <Tooltip
+              text="E-commerce made entirely with React using Redux,Styled-Components,React Router and Firebase."
+              position="bottom"
+            >
+              <ToooltipTarget>
+                <Icon icon={faQuestionCircle} />
+              </ToooltipTarget>
+            </Tooltip>
+            <a href="https://project-kos.vercel.app/">
+              <Icon icon={faCircleRight} />
+            </a>
+          </LI>
+          <LI>
+            <Tittle>Kanban</Tittle>
+            <Tooltip
+              text="Kanban app made with React using TypeScript, Redux and Styled-Components."
+              position="bottom"
+            >
+              <ToooltipTarget>
+                <Icon icon={faQuestionCircle} />
+              </ToooltipTarget>
+            </Tooltip>
+            <Icon icon={faCircleRight} />
+          </LI>
+        </UL>
+      </Container>
+    </>
   );
 };
