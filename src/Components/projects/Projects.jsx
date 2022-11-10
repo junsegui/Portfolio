@@ -39,7 +39,9 @@ export const Projects = () => {
                 <Icon icon={faQuestionCircle} />
               </ToooltipTarget>
             </Tooltip>
-            <Icon icon={faCircleRight} />
+            <a href="https://kanban-app-three.vercel.app/">
+              <Icon icon={faCircleRight} />
+            </a>
           </LI>
         </UL>
       </Container>

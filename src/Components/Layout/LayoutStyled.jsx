@@ -6,4 +6,7 @@ export const LayoutStyled = styled.div`
   display: flex;
   flex-direction: column;
   background-color: #e5d5cd;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;

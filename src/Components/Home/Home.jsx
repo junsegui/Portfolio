@@ -1,6 +1,6 @@
 import React from "react";
 import { Description, Line, StyledContainer, Tittle, Logo } from "./StyledHome";
-import logo from "../../assets/SEE MY DEV STACK.png";
+import logo from "../../assets/SEE MY DEV STACK (1).svg";
 import { Navbar } from "../Navbar/Navbar";
 
 export const Home = () => {

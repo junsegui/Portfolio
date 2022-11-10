@@ -27,21 +27,27 @@ export const UL = styled.ul`
   justify-content: flex-end;
 `;
 export const LI = styled(NavLink)`
-  width: 8%;
   color: #100c0b;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 700;
   margin-bottom: 1%;
   font-weight: 800;
+  width: 10%;
   text-decoration: none;
+  @media (max-width: 1024px) {
+    font-size: 1rem;
+  }
 `;
 export const Home = styled(NavLink)`
-  width: 90%;
   color: #100c0b;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 700;
   margin-bottom: 1%;
   font-weight: 800;
   text-decoration: none;
   letter-spacing: 1px;
+  width: 70%;
+  @media (max-width: 1024px) {
+    font-size: 1rem;
+  }
 `;
