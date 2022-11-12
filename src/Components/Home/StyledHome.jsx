@@ -62,7 +62,7 @@ export const Logo = styled.img`
   @media (max-width: 550px) {
     bottom: 10%;
     position: absolute;
-    height: 150px;
+    height: 130px;
     width: 120px;
     right: 0%;
   }
