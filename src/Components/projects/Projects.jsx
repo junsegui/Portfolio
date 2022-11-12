@@ -4,7 +4,7 @@ import {
   faCircleRight,
   faQuestionCircle,
 } from "@fortawesome/free-regular-svg-icons";
-import { Container, Date, Icon, LI, Tittle, UL } from "./styled-projects";
+import { A, Container, Date, Icon, LI, Tittle, UL } from "./styled-projects";
 import { Tooltip } from "../tooltip/Tooltip";
 import { ToooltipTarget } from "../tooltip/tooltip-styled";
 import { Navbar } from "../Navbar/Navbar";
@@ -25,9 +25,9 @@ export const Projects = () => {
                 <Icon icon={faQuestionCircle} />
               </ToooltipTarget>
             </Tooltip>
-            <a href="https://project-kos.vercel.app/">
+            <A href="https://project-kos.vercel.app/">
               <Icon icon={faCircleRight} />
-            </a>
+            </A>
           </LI>
           <LI>
             <Tittle>Kanban</Tittle>
@@ -39,9 +39,9 @@ export const Projects = () => {
                 <Icon icon={faQuestionCircle} />
               </ToooltipTarget>
             </Tooltip>
-            <a href="https://kanban-app-three.vercel.app/">
+            <A href="https://kanban-app-three.vercel.app/">
               <Icon icon={faCircleRight} />
-            </a>
+            </A>
           </LI>
         </UL>
       </Container>

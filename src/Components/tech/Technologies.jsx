@@ -23,7 +23,6 @@ export const Technologies = () => {
         <Brown>
           <FirstPart>
             <TechTittle>FRONT-END</TechTittle>
-
             <UL>
               <LI>HTML</LI>
               <LI>CSS</LI>

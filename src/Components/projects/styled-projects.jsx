@@ -36,6 +36,9 @@ export const Tittle = styled.span`
   font-size: 2.3rem;
   font-weight: 700;
   padding-bottom: 1%;
+  @media (max-width: 425px) {
+    font-size: 1.7rem;
+  }
 `;
 export const Date = styled.span`
   font-family: "Arimo";
@@ -48,4 +51,7 @@ export const Icon = styled(FontAwesomeIcon)`
   cursor: pointer;
   color: #352c2d;
 `;
-export const A = styled.a``;
+export const A = styled.a`
+  height: 100%;
+  font-size: 2rem;
+`;

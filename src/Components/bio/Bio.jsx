@@ -2,11 +2,9 @@ import React from "react";
 import {
   Container,
   Icon,
-  LI,
   Presentation,
   TextContainer,
   Tittle,
-  UL,
 } from "./bio-styles";
 import { faCode, faMugHot } from "@fortawesome/free-solid-svg-icons";
 import { Navbar } from "../Navbar/Navbar";

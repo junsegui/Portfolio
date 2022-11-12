@@ -13,6 +13,9 @@ export const Tittle = styled.h1`
   color: #332e2e;
   letter-spacing: 1px;
   font-weight: 700;
+  @media (max-width: 550px) {
+    font-size: 2rem;
+  }
 `;
 export const Presentation = styled.p`
   font-family: "Michroma";
@@ -20,6 +23,9 @@ export const Presentation = styled.p`
   font-size: 1.5rem;
   text-align: center;
   margin: 0;
+  @media (max-width: 550px) {
+    font-size: 1.2rem;
+  }
 `;
 export const TextContainer = styled.div`
   width: 50%;
@@ -29,10 +35,11 @@ export const TextContainer = styled.div`
   justify-content: center;
   align-items: center;
 `;
-export const UL = styled.ul``;
-export const LI = styled.li``;
 export const Icon = styled(FontAwesomeIcon)`
   width: 50%;
   height: 25%;
   color: #332e2e;
+  @media (max-width: 550px) {
+    width: 40%;
+  }
 `;

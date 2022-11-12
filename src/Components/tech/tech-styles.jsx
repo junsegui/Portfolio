@@ -40,6 +40,9 @@ export const TechTittle = styled.p`
   color: #e5d5cd;
   font-size: 3rem;
   font-weight: 700;
+  @media (max-width: 550px) {
+    font-size: 2.2rem;
+  }
 `;
 export const UL = styled.ul`
   list-style: none;
@@ -49,6 +52,9 @@ export const LI = styled.li`
   font-family: "Michroma";
   color: #e5d5cd;
   font-size: 1.6rem;
+  @media (max-width: 550px) {
+    font-size: 1.2rem;
+  }
 `;
 export const Button = styled(NavLink)`
   width: 100px;
@@ -58,6 +64,10 @@ export const Button = styled(NavLink)`
   display: flex;
   justify-content: center;
   align-items: center;
+  @media (max-width: 550px) {
+    width: 50px;
+    height: 50px;
+  }
 `;
 export const Icon = styled(FontAwesomeIcon)`
   color: #e5d5cd;

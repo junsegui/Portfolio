@@ -8,8 +8,7 @@ export const TooltipWraper = styled.div`
 export const ToooltipTarget = styled.button`
   border: none;
   background: none;
-  padding: 5px;
-  margin: -1px;
+
   color: inherit;
   cursor: inherit;
   display: flex;
