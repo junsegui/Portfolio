@@ -8,7 +8,7 @@ export const StyledContainer = styled.div`
   flex-direction: column;
   justify-content: flex-end;
   @media (max-width: 550px) {
-    height: 80vh;
+    height: 75vh;
   }
 `;
 export const Tittle = styled.h1`
