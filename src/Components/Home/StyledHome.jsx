@@ -60,7 +60,7 @@ export const Logo = styled.img`
     width: 40%;
   }
   @media (max-width: 550px) {
-    bottom: 10%;
+    bottom: 5%;
     position: absolute;
     height: 130px;
     width: 120px;
