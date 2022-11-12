@@ -1,8 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
-export const ModalContainer = styled.div`
+export const ModalContainer = styled(motion.div)`
   width: 100%;
   height: 100%;
   position: fixed;

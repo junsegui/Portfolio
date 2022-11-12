@@ -8,7 +8,7 @@ export const Home = () => {
     <>
       <Navbar />
       <StyledContainer>
-        <Tittle>JUAN SEGUI</Tittle>
+        <Tittle>JUAN SEGUÍ</Tittle>
         <Description>
           I'm a FullStack developer who wants to be a great professional capable
           of facing and solving any problem.

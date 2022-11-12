@@ -4,6 +4,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Modal } from "./modal/Modal";
 
 import { useDispatch } from "react-redux";
+import { AnimatePresence } from "framer-motion";
 
 export const MobileNavbar = () => {
   const [visible, isVisible] = useState(false);
@@ -11,7 +12,10 @@ export const MobileNavbar = () => {
   const dispatch = useDispatch;
   return (
     <MobileNavbarContainer>
-      {visible && <Modal isVisible={isVisible} visible={visible} />}
+      <AnimatePresence>
+        {visible && <Modal isVisible={isVisible} visible={visible} />}
+      </AnimatePresence>
+
       <Icon icon={faBars} onClick={(e) => isVisible(!visible)} />
     </MobileNavbarContainer>
   );

@@ -7,19 +7,23 @@ import {
   ModalContainer,
 } from "./styles-modal";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const Modal = ({ visible, isVisible }) => {
   return (
-    <ModalContainer>
+    <ModalContainer
+      initial={{ translateY: -150 }}
+      animate={{ translateY: 20 }}
+      exit={{ translateY: -500 }}
+      transition={{ type: "spring", damping: 10 }}
+    >
       <ExitContainer>
         <Exit icon={faXmark} onClick={(e) => isVisible(!visible)} />
       </ExitContainer>
       <ListContainer>
-        <Links>Home</Links>
-        <Links>Bio</Links>
-        <Links>Projects</Links>
-        <Links>Technologies</Links>
+        <Links to="/">Home</Links>
+        <Links to="/bio">Bio</Links>
+        <Links to="/projects">Projects</Links>
+        <Links to="/technologies">Technologies</Links>
       </ListContainer>
     </ModalContainer>
   );
