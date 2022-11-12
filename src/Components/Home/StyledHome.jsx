@@ -8,7 +8,7 @@ export const StyledContainer = styled.div`
   flex-direction: column;
   justify-content: flex-end;
   @media (max-width: 550px) {
-    height: 75vh;
+    height: 80vh;
   }
 `;
 export const Tittle = styled.h1`
@@ -60,6 +60,10 @@ export const Logo = styled.img`
     width: 40%;
   }
   @media (max-width: 550px) {
-    bottom: 0%;
+    bottom: 10%;
+    position: absolute;
+    height: 150px;
+    width: 120px;
+    right: 0%;
   }
 `;
