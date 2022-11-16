@@ -72,4 +72,5 @@ export const Button = styled(NavLink)`
 export const Icon = styled(FontAwesomeIcon)`
   color: #e5d5cd;
   font-size: 2rem;
+  position: absolute;
 `;
